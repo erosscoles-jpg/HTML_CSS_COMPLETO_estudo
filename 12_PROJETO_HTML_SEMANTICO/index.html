@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Blog semantico</title>
+</head>
+<body>
+    <!-- NAVBAR E HEADER -->
+    <header>
+        <nav id="navbar">
+            <div id="navbar-inner">
+                <h2>Blog</h2>
+                <ul id="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <div class="container">
+        <main id="posts-container">
+            <!-- BARCO -->
+            <article class="post">
+                <img src="img/f1.jpg" alt="passeio de barco">
+                <h3 class="title"><a href="#">Algum titulo</a></h3>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti doloremque, dicta odio neque soluta ipsa placeat voluptate, quod saepe dolores excepturi! Exercitationem quod quam id maxime corporis, voluptate esse.</p>
+                <p class="author">Por: Mateus Batista</p>
+                <a href="#">Ler mais</a>
+            </article>
+
+            <!-- CACHOEIRA -->
+            <article class="post">
+                <img src="img/f2.jpg" alt="cachoeira">
+                <h3 class="title"><a href="#">Outro titulo</a></h3>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti doloremque, dicta odio neque soluta ipsa placeat voluptate, quod saepe dolores excepturi! Exercitationem quod quam id maxime corporis, voluptate esse.</p>
+                <p class="author">Por: Dexter Morgan</p>
+                <a href="#">Ler mais</a>
+            </article>
+
+            <!-- SHOW DE BALÕES -->
+            <article class="post">
+                <img src="img/f3.jpg" alt="show de balões">
+                <h3 class="title"><a href="#">Mais um titulo</a></h3>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti doloremque, dicta odio neque soluta ipsa placeat voluptate, quod saepe dolores excepturi! Exercitationem quod quam id maxime corporis, voluptate esse.</p>
+                <p class="author">Por: Desconhecido</p>
+                <a href="#">Ler mais</a>
+            </article>
+           
+        </main>
+        <aside id="sidebar">
+            <!-- BUSCA -->
+             <section id="search-bar">
+                <h4>Busca</h4>
+                <form>
+                    <input type="text" placeholder="Pesquise no Blog">
+                    <input type="submit" value="Buscar">
+                </form>
+             </section>
+
+             <!-- CATEGORIAS -->
+              <section id="categories">
+                <h4>Categorias</h4>
+                <nav>
+                    <ul>
+                        <li><a href="#">Paisagens</a></li>
+                        <li><a href="#">Aventuras</a></li>
+                        <li><a href="#">Viagens longas</a></li>
+                        <li><a href="#">Florestas</a></li>
+                        <li><a href="#">Cachoeiras</a></li>
+                        <li><a href="#">Vulcões</a></li>
+                    </ul>
+                </nav>
+              </section>
+
+              <!-- TAG -->
+               <section id="tags">
+                <h4>Tags</h4>
+                <div id="tags-container">
+                    <a href="#">LifeStyle</a>
+                    <a href="#">Viagem</a>
+                    <a href="#">Barco</a>
+                    <a href="#">Trilha</a>
+                    <a href="#">Tirolesa</a>
+                </div>
+               </section>
+        </aside>
+    </div>
+
+    <footer id="footer">
+        <h2>Blog</h2>
+        <p>Os melhores registros de aventuras</p>
+        <p>2022 &copy; Hora de codar</p>
+    </footer>
+
+</body>
+</html>
